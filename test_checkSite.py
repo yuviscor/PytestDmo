@@ -17,7 +17,7 @@ from HomePage import PageH
 
 #     dr.close()
 
-
+    
 @pytest.mark.usefixtures("test_setup")
 
 class Test_websitecheck:
@@ -50,6 +50,7 @@ class Test_websitecheck:
         # Text2=self.driver.find_element_by_link_text("iphone X").text
 
         Text2=out.getText()
+        print(Text2)
 
         assert Text2=="iphone X"
 
