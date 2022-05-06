@@ -4,8 +4,8 @@ import openpyxl
 
 class DcData:
 
-    varia = [{"name":"yuvraj", "email":"seek@gmail.com", "gender":"Male"},
-             {"name": "yuvrajV", "email": "seekvvv@gmail.com", "gender": "Female"}]
+    #varia = [{"name":"yuvraj", "email":"seek@gmail.com", "gender":"Male"},
+    #        {"name": "yuvrajV", "email": "seekvvv@gmail.com", "gender": "Female"}]
 
     va = []
     @staticmethod
